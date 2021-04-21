@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{ 
+width: 1200px;
+height: 1000px;
+background: white;
+margin: 0 auto;
+}
+.header{
+	width: 1200px;
+	height: 200px;
+	background:#0B0808;
+	display: flex;
+	align-items: center;
+}
+.header img{ 
+width: 200px;
+height: 200px;
+overflow: hidden;
+border-radius: 50%;
+margin: 10px;
+}
+.text{ 
+font-size:50px;
+color:#F1EAEA;
+padding-left: 150px;
+box-sizing: borde-box;
+}
+.body{
+	width: 1200px;
+	height: 600px;
+	background:#C5F3F4;
+	margin-top: 10px;
+	background-image: url("IMG/74374756_447073542586141_8745090014985060352_o.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.slice{
+	width: 1200px;
+	height: 450px;
+	background:black;
+	margin-top: 10px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.slice1{
+	width: 500px;
+	height: 400px;
+	background: #D8CECE;
+	margin: 10px;
+	background-image: url("IMG/i-da-midnight-blue-calming-cream-30ml_d905855535bf404c99e98d96a6752cf0_d19f9e38dfaa49e5a9a66726e2ef6f98.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.texta{
+	width: 1200px;
+	height: 50px;
+	background:black;
+	color:white;
+	text-align: center;
+	font-size: 30px;
+}
+.texta:hover{
+	color: red;
+}
+.outer{
+	width: 1200px;
+	height: 250px;
+	background: black;
+	margin-top: 10px;
+}
+.outer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.outer h1{
+	color: white;
+}
+.footer{
+	width: 1200px;
+	height: 100px;
+	background: black;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
+
+.footer ul li {
+	display: inline-block;
+	padding: 20px 70px;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	
+}
+.footer ul li a:hover{
+	color: red;
+}
